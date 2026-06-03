@@ -6,54 +6,74 @@
     <meta name="description" content="This is my portfolio website that showcases some of my front-end development projects"> 
     <title>Portfolio 1</title>
     <link rel="stylesheet" href="css/style.css">
-</head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ms+Madi&family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
 <body>
     <header>
 
     </header>
     <main>
-        <section>
-            <h1>Susann Thue</h1>
-            <p>This is me</p>
-            <img src="images/susann_profile-image.jpg" alt="Profile picture of me">
+        <section id="hero">
+            <img src="images/susann_profile-image.jpg" alt="Profile picture of me" class="profile-image">
+            <div>
+                <h1>Susann Thue</h1>
+                <p>Front-End Development student from Oslo, Norway, with experience in HTML, CSS, and JavaScript. 
+                    I enjoy creating user-friendly and visually engaging websites, and I am currently learning, building, and improving my skills in web development.
+                </p>
+            </div>
         </section>
-        <section>
+        <section id="projects">
             <h2>My projects</h2>
             <div id="project-cards">
-                <div>
-                    <img src="images/Square-Eyes_thumbnail.jpg" alt="Square Eyes Project thumbnail">
+                <div class="card">
+                    <div>
+                        <a href="https://susannt.github.io/square-eyes/" class="cta cta-demo">Website</a>
+                        <a href="https://github.com/susannt/square-eyes.git" class="cta cta-repo">Repository</a>
+                    </div>
+                    <a href="https://github.com/susannt/square-eyes.git">
+                        <img src="images/Square-Eyes_thumbnail.jpg" alt="Square Eyes Project thumbnail" class="project-thumbnail">
+                    </a>
                     <h3>Square Eyes</h3>
-                    <p>Text</p>
-                    <div>
-                        <a href="https://susannt.github.io/square-eyes/">Website</a>
-                        <a href="https://github.com/susannt/square-eyes.git">GitHub repository</a>
-                    </div>
+                    <p>Square Eyes is a simple website for browsing and “purchasing” movies. The project is built using only HTML and CSS.</p>
                 </div>
-                <div>
-                    <img src="images/JS-Square-Eyes_thumbnail.jpg" alt="JS - Square Eyes Project thumbnail">
+                <div class="card">
+                    <div>
+                        <a href="https://susannt.github.io/JS-square-eyes/" class="cta cta-demo">Website</a>
+                        <a href="https://github.com/susannt/JS-square-eyes.git" class="cta cta-repo">Repository</a>
+                    </div>
+                    <a href="https://susannt.github.io/JS-square-eyes/">
+                        <img src="images/JS-Square-Eyes_thumbnail.jpg" alt="JS - Square Eyes Project thumbnail" class="project-thumbnail">
+                    </a>
                     <h3>JS - Square Eyes</h3>
-                    <p>Text</p>
-                    <div>
-                        <a href="https://susannt.github.io/JS-square-eyes/">Website</a>
-                        <a href="https://github.com/susannt/JS-square-eyes.git">GitHub repository</a>
-                    </div>
+                    <p>Square Eyes is a simple website for browsing and “purchasing” movies. The project is built using HTML, CSS, and JavaScript.</p>
                 </div>
-                <div>
-                    <img src="images/Community-Science-Museum_thumbnail.jpg" alt="Community Science Museum Project thumbnail">
-                    <h3>Community Science Museum</h3>
-                    <p>Text</p>
+                <div class="card">
                     <div>
-                        <a href="https://susannt.github.io/Community-Science-Museum/">Website</a>
-                        <a href="https://github.com/susannt/Community-Science-Museum.git">GitHub repository</a>
+                        <a href="https://susannt.github.io/Community-Science-Museum/" class="cta cta-demo">Website</a>
+                        <a href="https://github.com/susannt/Community-Science-Museum.git" class="cta cta-repo">Repository</a>
                     </div>
+                    <a href="https://susannt.github.io/Community-Science-Museum/">
+                        <img src="images/Community-Science-Museum_thumbnail.jpg" alt="Community Science Museum Project thumbnail" class="project-thumbnail">
+                    </a>
+                    <h3>Community Science Museum</h3>
+                    <p>This project is a website for a Community Science Museum. 
+                        It provides information about exhibitions, what to explore at the museum, upcoming events, and practical information for visitors. 
+                        The website is built using only HTML and CSS.
+                    </p>
                 </div>
             </div>
         </section>
-        <section>
-            <h2>Contact</h3>
-            <h3>Contact information</h3>
-            <div>CV/Resume</div>
-            <div>Cover Letter</div>
+        <section id="career">
+            <h2>Career</h2>
+            <div id="documents">
+                <div class="document">
+                    <h3>CV/Resume</h3>
+                </div>
+                <div class="document">
+                    <h3>Cover Letter</h3>
+                </div>
+            </div>
         </section>
     </main>
     <footer>

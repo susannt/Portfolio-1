@@ -1,0 +1,135 @@
+body {
+    min-height: 100vh;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    background-color: #C9ADA7;
+    font-family: "Quicksand", sans-serif;
+}
+
+h1 {
+    font-family: "Ms Madi", cursive;
+    font-size: 5rem;
+    margin-bottom: 1rem;
+}
+
+h2 {
+    font-size: 2rem;
+    padding-bottom: 2rem;
+}
+
+#project-cards,
+#hero {
+    display: flex;
+    flex-direction: row;
+}
+
+#hero {
+    gap: 4rem;
+    align-items: center;
+    border-top: solid 0.5px;
+}
+
+#project-cards {
+    gap: 1rem;
+}
+
+#hero,
+#projects,
+#career {
+    margin: 1rem;
+    padding: 1rem;
+}
+
+#projects,
+#career {
+    border-top: solid 0.5px;
+    border-color:black;
+    padding-bottom: 3rem;
+}
+
+.profile-image {
+    border-radius: 500px;
+    height: 220px;
+    padding: 1rem;
+}
+
+#hero p {
+    width: 600px;
+    font-size: 1.25rem;
+}
+
+#project-cards p {
+    width: 350px;
+}
+
+.project-thumbnail {
+    height: 200px;
+    width: 350px;
+    object-fit: cover;
+    border-radius: 10px;
+    border: solid 1px;
+    border-color: black;
+}
+
+.card {
+    padding: 2rem;
+    box-shadow: 1px 10px 8px rgba(0, 0, 0, 0.12);
+    background-color: #E6E8E6;
+    border-radius: 10px;
+    height: 450px;
+}
+.card div {
+    padding-bottom: 2rem;
+}
+
+.cta {
+    color: black;
+    border: none;
+    border-radius: 10px;
+    font-size: 1em;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.12);
+    padding: 10px 15px;
+    width: fit-content;
+    align-self: center;
+    text-decoration: none;
+}
+
+.cta:hover {
+    opacity: 50%;
+}
+
+.cta:active {
+    opacity: 1;
+    box-shadow: inset 0 5px 5px rgba(0, 0, 0, 0.20);
+}
+
+#career {
+    margin-bottom: 5rem;
+}
+
+#documents {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+.document {
+    padding: 1rem;
+    box-shadow: 1px 10px 8px rgba(0, 0, 0, 0.12);
+    background-color: #E6E8E6;
+    border-radius: 10px;
+    height: 50px;
+    width: 350px;
+    display: flex;
+    align-items: center;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+}
