@@ -94,7 +94,6 @@ h2 {
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.12);
     padding: 10px 15px;
     width: fit-content;
-    align-self: center;
     text-decoration: none;
 }
 
@@ -119,13 +118,23 @@ h2 {
 
 .document {
     padding: 1rem;
-    box-shadow: 1px 10px 8px rgba(0, 0, 0, 0.12);
-    background-color: #E6E8E6;
     border-radius: 10px;
-    height: 50px;
-    width: 350px;
+    height: 100px;
+    width: auto;
     display: flex;
     align-items: center;
+    justify-content: center;
+}
+
+.cta-document {
+    background-color: #E6E8E6;
+    width: 200px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    font-weight: bold;
 }
 
 footer {
